@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="RoomsApi.DataAccess/RoomsApi.DataAccess.csproj" />
+  <Project Path="RoomsApi.Dtos/RoomsApi.Dtos.csproj" />
+  <Project Path="RoomsApi.Entities/RoomsApi.Entities.csproj" />
+  <Project Path="RoomsApi.Services/RoomsApi.Services.csproj" />
+  <Project Path="RoomsApi/RoomsApi.csproj" />
+</Solution>

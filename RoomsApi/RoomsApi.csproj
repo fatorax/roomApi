@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>c4c912e9-91de-4e18-9d42-3fdec718daee</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RoomsApi.DataAccess\RoomsApi.DataAccess.csproj" />
+    <ProjectReference Include="..\RoomsApi.Dtos\RoomsApi.Dtos.csproj" />
+    <ProjectReference Include="..\RoomsApi.Services\RoomsApi.Services.csproj" />
+  </ItemGroup>
+
+</Project>
